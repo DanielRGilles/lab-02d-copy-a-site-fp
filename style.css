@@ -1,0 +1,42 @@
+* {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+html, body, main{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+.pagey {
+    display: grid;
+    grid-template-columns: 8% 1fr;
+}
+.nav-bar {
+    display: grid;
+    margin-left: 5%;
+    height: 100vh ;
+    left: 0;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+  padding-left: 10%;
+    
+    width: 85px;
+}
+.content-area {
+    display: grid;
+    grid-template-rows: 20px 1fr ;
+}
+.content-area-sub {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.first-pose {
+    display: grid;
+    grid-template-columns: 15% 1fr;
+}
+.btn-ctn {
+    display: grid;
+    height: 100vh;
+}
